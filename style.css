@@ -736,6 +736,8 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: 
 .contact-card a:hover { color: #b8944f; }
 .contact-card .btn { color: #fff !important; }
 .contact-card .btn:hover { color: #fff !important; }
+.contact-card .btn-outline-dark { color: #2c4a6e !important; }
+.contact-card .btn-outline-dark:hover { color: #fff !important; }
 
 .contact-sub {
   font-size: 0.85rem !important;
