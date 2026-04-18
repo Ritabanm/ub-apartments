@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UB-Apartments — Student apartment rentals in Buffalo, NY. Spacious 1, 2 and 3 bedroom apartments near University at Buffalo. Individual leases, roommate pairing, affordably priced." />
+  <title>UB-Apartments | Student Apartment Rentals in Buffalo, NY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <span class="topbar-phone">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+        Call/Text/WhatsApp: <a href="tel:17163594332">1-716-359-4332</a>
+      </span>
+      <span class="topbar-email">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <a href="mailto:Kate.Sullivan@ub-apartments.com">Kate.Sullivan@ub-apartments.com</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">UB<span>-Apartments</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#apartments">Apartments</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="mailto:Kate.Sullivan@ub-apartments.com?subject=Availability%20Inquiry" class="nav-cta">CHECK AVAILABILITY</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Welcome to</p>
+      <h1 class="hero-title">Student Apartment Rentals<br>in Buffalo, NY</h1>
+      <p class="hero-subtitle">UB-Apartments specializes in providing comfortable and affordable housing options for students in Buffalo, New York.</p>
+      <p class="hero-desc">Classic Buffalo architecture in spacious one, two and three bedroom apartments. Roommate pairing and individual leases available.</p>
+      <div class="hero-actions">
+        <a href="mailto:Kate.Sullivan@ub-apartments.com?subject=Availability%20Inquiry" class="btn btn-primary">CHECK AVAILABILITY</a>
+        <a href="tel:17163594332" class="btn btn-outline">Call/Text: 1-716-359-4332</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== INTRO STRIP ===== -->
+  <section class="intro-strip">
+    <div class="container">
+      <p>Student Apartment Rentals &mdash; Conveniently located and thoughtfully designed, ensuring a smooth and pleasant renting experience.</p>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / FEATURES ===== -->
+  <section class="about" id="apartments">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-label">About UB-Apartments</span>
+          <h2>A Better Choice Than Apartment Complexes or Dormitory Style Living</h2>
+          <p>UB-Apartments offers classic Buffalo architecture in spacious one, two, and three bedroom apartments — affordably priced and thoughtfully maintained for student life. We specialize in roommate pairing and individual leases, making it easy to find your perfect living situation.</p>
+          <p>Our apartments feature in-house free laundry, fully furnished options, and a secure, student-friendly environment. We are conveniently located near the UB Stampede Bus route, giving you easy access to all University at Buffalo campuses and downtown Buffalo.</p>
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+              </div>
+              <div>
+                <strong>Individual Leases</strong>
+                <p>No joint liability — each tenant signs their own lease.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+              </div>
+              <div>
+                <strong>Roommate Pairing</strong>
+                <p>We help match compatible roommates for shared units.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+              </div>
+              <div>
+                <strong>Secure Environment</strong>
+                <p>Student-friendly, safe, and well-maintained properties.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+              </div>
+              <div>
+                <strong>Free In-House Laundry</strong>
+                <p>On-site laundry facilities included at no extra cost.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-images">
+          <div class="about-img-main">
+            <img src="images/apt1.jpg" alt="UB-Apartments living room" loading="lazy" />
+          </div>
+        <div class="about-img-secondary">
+          <img src="images/apt2.jpg" alt="UB-Apartments dining area" loading="lazy" />
+        </div>
+        <div class="about-img-secondary">
+          <img src="images/apt6.jpg" alt="UB-Apartments kitchen" loading="lazy" />
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <span class="section-label">Photo Gallery</span>
+      <h2>A Glimpse Inside Your New Home</h2>
+      <p class="section-intro">Browse photos of our apartments — spacious rooms, classic Buffalo architecture, and modern comforts throughout.</p>
+
+      <div class="gallery-actions">
+        <a href="mailto:Kate.Sullivan@ub-apartments.com?subject=Availability%20Inquiry" class="btn btn-primary">CLICK HERE FOR AVAILABILITY</a>
+        <a href="mailto:Kate.Sullivan@ub-apartments.com?subject=Get%20Notified%20of%20Openings" class="btn btn-secondary">CLICK HERE TO GET NOTIFIED</a>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--large">
+          <img src="images/apt3.jpg" alt="Apartment bedroom" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/apt4.jpg" alt="Apartment living room" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/apt5.jpg" alt="Apartment hallway" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/apt6.jpg" alt="Apartment dining room" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/apt7.jpg" alt="Apartment kitchen" loading="lazy" />
+        </div>
+        <div class="gallery-item gallery-item--large">
+          <img src="images/apt8.jpg" alt="Apartment interior" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/apt9.jpg" alt="Apartment room" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/apt10.jpg" alt="Apartment space" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/apt11.jpg" alt="Apartment detail" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="gallery-contact">
+        <p>Call/Text/Message/WhatsApp: <a href="tel:17163594332">1-716-359-4332</a> &nbsp;|&nbsp; Email: <a href="mailto:Kate.Sullivan@ub-apartments.com">Kate.Sullivan@ub-apartments.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION SECTION ===== -->
+  <section class="location" id="location">
+    <div class="location-bg">
+      <img src="images/buffalo-skyline-night.jpg" alt="Buffalo skyline at night" />
+      <div class="location-bg-overlay"></div>
+    </div>
+    <div class="container location-content">
+      <span class="section-label light">Prime Location</span>
+      <h2>UB-Apartments</h2>
+      <p class="location-intro">Classic architecture, historic detail, prime location for universities and the area. Our apartments give you a glimpse into upscale urban living with vintage charm — and easy access to everything Buffalo has to offer.</p>
+
+      <div class="location-photos">
+        <div class="location-photo">
+          <img src="images/keybank-center.jpg" alt="KeyBank Center Buffalo" loading="lazy" />
+          <p>KeyBank Center &amp; Alumni Plaza</p>
+        </div>
+        <div class="location-photo">
+          <img src="images/buffalo-light-rail.jpg" alt="Buffalo NFTA Metro Rail" loading="lazy" />
+          <p>NFTA Metro Rail &amp; UB Stampede Bus</p>
+        </div>
+        <div class="location-photo">
+          <img src="images/ub-campus.jpg" alt="University at Buffalo campus" loading="lazy" />
+          <p>University at Buffalo Campus</p>
+        </div>
+      </div>
+
+      <a href="https://maps.google.com/?q=Buffalo,NY+14214" target="_blank" rel="noopener" class="btn btn-outline-light">GET DIRECTIONS</a>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES STRIP ===== -->
+  <section class="features-strip">
+    <div class="container">
+      <div class="features-grid">
+        <div class="features-col">
+          <div class="features-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 4c1.4 0 2.8 1.4 2.8 3S13.4 11 12 11s-2.8-1.4-2.8-3S10.6 5 12 5zm0 8.5c-1.87 0-3.53.94-4.5 2.37C8.44 17.21 10.17 18 12 18s3.56-.79 4.5-2.13C15.53 14.44 13.87 13.5 12 13.5z"/></svg>
+          </div>
+          <h3>Secure, Student Friendly Environment</h3>
+          <p>Our properties are well-maintained, safe, and designed with student residents in mind. We take security seriously so you can focus on your studies.</p>
+        </div>
+        <div class="features-col">
+          <div class="features-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <h3>Prime Location &amp; Convenient Public Transport</h3>
+          <p>Direct access to the UB Stampede Bus and NFTA Metro Rail. Connections to all universities in Buffalo, downtown, KeyBank Center, and the waterfront.</p>
+        </div>
+        <div class="features-col">
+          <div class="features-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+          </div>
+          <h3>Modern, Fully Furnished Apartments with Historic Details</h3>
+          <p>Affordably priced units featuring classic Buffalo architecture, high ceilings, and thoughtful finishes — everything you need for comfortable student living.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <span class="section-label">Testimonials</span>
+      <h2>What Our Residents Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Great location, close to campus and the bus stop. The apartment was clean and well maintained. Kate was always responsive and helpful. Would definitely recommend to other UB students."</p>
+          <span class="testimonial-author">— UB Student Resident</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"I loved having my own lease — no worrying about what my roommates do. The roommate pairing service was a great help too. The apartment itself was spacious and had everything I needed."</p>
+          <span class="testimonial-author">— Graduate Student, UB</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Affordable, comfortable, and close to the Stampede Bus. The free laundry in the building was a huge plus. I felt safe and the neighborhood was quiet. Highly recommend UB-Apartments."</p>
+          <span class="testimonial-author">— Undergraduate Student</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <span class="section-label">Get In Touch</span>
+      <h2>Contact Us</h2>
+      <p class="section-intro">Ready to find your new home? Reach out today — we're happy to answer any questions about availability, pricing, or the application process.</p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          </div>
+          <h3>Call / Text / WhatsApp</h3>
+          <p><a href="tel:17163594332">1-716-359-4332</a></p>
+          <p class="contact-sub">Office: <a href="tel:17168364429">1-716-836-4429</a></p>
+          <p class="contact-sub">Office Hours: 8:00 AM – 8:00 PM</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </div>
+          <h3>Email</h3>
+          <p><a href="mailto:Kate.Sullivan@ub-apartments.com">Kate.Sullivan@ub-apartments.com</a></p>
+          <div class="contact-actions">
+            <a href="mailto:Kate.Sullivan@ub-apartments.com?subject=Availability%20Inquiry" class="btn btn-primary">CHECK AVAILABILITY</a>
+            <a href="mailto:Kate.Sullivan@ub-apartments.com?subject=Get%20Notified%20of%20Openings" class="btn btn-secondary">GET NOTIFIED</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <h3>Location</h3>
+          <p>Buffalo, NY 14214</p>
+          <p class="contact-sub">Near University at Buffalo<br>UB Stampede Bus Route</p>
+          <a href="https://maps.google.com/?q=Buffalo,NY+14214" target="_blank" rel="noopener" class="btn btn-outline-dark">GET DIRECTIONS</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Prime Location</h4>
+          <p>Prime Location and Convenient Public Transport Connections to all Universities in Buffalo. Direct access to the UB Stampede Bus and NFTA Metro Rail.</p>
+        </div>
+        <div class="footer-col footer-col--center">
+          <div class="footer-logo">UB<span>-Apartments</span></div>
+          <h4>Contact Us</h4>
+          <p>
+            <a href="tel:17163594332">1-716-359-4332</a><br>
+            Office: <a href="tel:17168364429">1-716-836-4429</a><br>
+            Hours: 8:00 AM – 8:00 PM<br>
+            <a href="mailto:Kate.Sullivan@ub-apartments.com">Kate.Sullivan@ub-apartments.com</a>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Secure Student Environment</h4>
+          <p>UB-Apartments provides a secure, student-friendly environment with well-maintained properties, individual leases, and responsive management — so you can focus on what matters most.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 UB-Apartments. All rights reserved. | Buffalo, NY 14214</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
